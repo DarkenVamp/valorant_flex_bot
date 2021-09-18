@@ -1,1 +1,2 @@
-worker: python main.py
+tg: python tg.py
+dcrd: python dcrd.py
