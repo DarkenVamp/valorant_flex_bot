@@ -1,7 +1,7 @@
 import requests
 profile = 'https://api.tracker.gg/api/v2/valorant/standard/profile/riot/'
 matches = profile.replace('profile', 'matches')
-header = {'User-Agent': 'Mozilla/5.0'}
+header = {'User-Agent': 'Mozilla/5.0', 'Referer': 'https://tracker.gg'}
 
 def getShots(name):
     heads = body = legs = 0
